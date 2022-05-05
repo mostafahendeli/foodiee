@@ -62,4 +62,29 @@ body {
     right: -0.5rem;
 }
 
+.container {
+    max-width: 310px;
+    margin: auto;
+}
 
+h1 {
+    font-size: 3rem;
+    font-family: Helvetica;
+}
+
+h1 span {
+    font-size: 3.5rem;
+    font-family: "Helvetica-bold";
+}
+
+.favourite-meal-slid-show {
+    display: flex;
+}
+
+.favourite-meal-slidshow-text {
+    transform: rotate(-90deg);
+}
+
+.favourite-meal-img {
+    position: relative;
+}
