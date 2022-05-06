@@ -88,3 +88,66 @@ h1 span {
 .favourite-meal-img {
     position: relative;
 }
+.hot-dishes-header span a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: "Helvetica";
+    color: var(--link-color);
+}
+
+.hot-dishes-main {
+    display: grid;
+    grid-template-columns: 14.4rem 14.4rem;
+    grid-template-rows: 14.4rem 14.4rem;
+    row-gap: 4.3rem;
+    column-gap: 2.1rem;
+}
+
+.transparent-img {
+    position: absolute;
+    top: -1.5rem;
+    right: -1.5rem;
+}
+
+.transparent-img--spaghetti3 {
+    position: absolute;
+    top: -3.5rem;
+    right: -5rem;
+}
+
+.shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hot-dishes-items {
+    position: relative;
+}
+
+.hot-dishes-name {
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: "Helvetica";
+    font-weight: 700;
+    position: absolute;
+    bottom: 2.5rem;
+    left: 1rem;
+}
+
+.rank-hot-dishes {
+    display: flex;
+    position: absolute;
+    top: 12rem;
+    left: 1rem;
+    font-size: 1.1rem;
+}
+
+.star {
+    color: gold;
+}
+
+.star-count {
+    color: #fff;
+    padding-left: 1rem;
+}
