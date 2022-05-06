@@ -88,6 +88,24 @@ h1 span {
 .favourite-meal-img {
     position: relative;
 }
+
+.dish-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hot-dishes {
+    margin-top: 5rem;
+
+}
+
+.hot-dishes-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
 .hot-dishes-header span a {
     text-decoration: none;
     font-size: 1.4rem;
