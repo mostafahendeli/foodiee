@@ -173,3 +173,54 @@ h1 span {
 .center-slideshow {
     margin-top: 5rem;
 }
+
+.popular-categories header {
+    margin: 5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-categories span a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: "Helvetica";
+    color: var(--link-color);
+}
+
+.main-popular-categories {
+    display: grid;
+    row-gap: 2rem;
+}
+
+.items-popular-categories {
+    width: 30.9rem;
+}
+
+.items-popular-categories h2 {
+    position: absolute;
+    font-size: 2rem;
+    color: #fff;
+    z-index: 1;
+    top: 40%;
+    left: 10%;
+}
+
+.items-popular-categories span {
+    position: absolute;
+}
+
+.items-popular-categories {
+    position: relative;
+}
+
+.item1 {
+    background-color: #9c7375;
+    border-radius: 15%;
+    max-height: 8.5rem;
+}
+
+.item4 {
+    background-color: #000;
+    border-radius: 15%;
+    max-height: 8.5rem;
+}
