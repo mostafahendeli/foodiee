@@ -13,7 +13,7 @@
     --scondery-txt-color: #707070;
     --txt-color-light: #c4c4c4;
     --link-color: #5f5f5f;
-
+    --grid-size: 13.5rem;
 }
 
 html {
@@ -115,8 +115,8 @@ h1 span {
 
 .hot-dishes-main {
     display: grid;
-    grid-template-columns: 14.4rem 14.4rem;
-    grid-template-rows: 14.4rem 14.4rem;
+    grid-template-columns: var(--grid-size) var(--grid-size);
+    grid-template-rows: var(--grid-size) var(--grid-size);
     row-gap: 4.3rem;
     column-gap: 2.1rem;
 }
