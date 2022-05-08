@@ -4,20 +4,64 @@
     box-sizing: border-box;
 }
 
+:root {
+    --camera-bgcolor: #1db14b;
+    --bgcolor-body: #f7f7f7;
+}
+
 html {
     font-size: 62.5%;
 }
 
 body {
     max-width: 375px;
+    background-color: var(--bgcolor-body);
 }
 
-.container{
+.container {
     max-width: 310px;
     margin: auto;
 }
 
-.top-nav{
+.top-nav {
     display: flex;
     justify-content: space-between;
+    padding-top: 6rem;
 }
+
+.text-top-nav {
+    font-size: 1.5rem;
+}
+
+.profile-img {
+    padding: 3.5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.center-img {
+    position: relative;
+
+}
+
+.center-img img {
+    max-width: 13.5rem;
+    border-radius: 50%;
+    border: 0.5rem solid #fff;
+    /* box-shadow: 0 0 ; */
+}
+
+.center-img span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--camera-bgcolor);
+    padding: 1rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.address {}
