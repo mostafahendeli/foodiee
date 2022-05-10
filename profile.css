@@ -7,6 +7,7 @@
 :root {
     --camera-bgcolor: #1db14b;
     --bgcolor-body: #f7f7f7;
+    --label-color: #8e8e8e;
 }
 
 html {
@@ -15,7 +16,7 @@ html {
 
 body {
     max-width: 375px;
-    background-color: var(--bgcolor-body);
+    /* background-color: var(--bgcolor-body); */
 }
 
 .container {
@@ -64,4 +65,23 @@ body {
 
 }
 
-.address {}
+.address form {
+    display: grid;
+}
+
+form label {
+    font-size: 1.5rem;
+    color: var(--label-color);
+}
+
+form input {
+    margin-bottom: 3rem;
+    border: none;
+    border-bottom: 1px solid #8e8e8e;
+}
+
+form input:focus {
+    outline: none;
+    border-bottom: 1px solid #8e8e8e;
+
+}
