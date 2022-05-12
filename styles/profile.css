@@ -42,6 +42,8 @@ body {
 
 .center-img {
     position: relative;
+    border-radius: 50%;
+    box-shadow: 0.01rem 0.01rem 0.3rem;
 
 }
 
