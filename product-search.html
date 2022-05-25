@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,33 +8,32 @@
     <title>Product Search</title>
     <link rel="stylesheet" href="./styles/product-search.css">
 </head>
+
 <body>
     <nav class="nav-top container">
-        <span class="back-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="9.06" height="15.848" viewBox="0 0 9.06 15.848">
-                <path id="Icon_ionic-ios-arrow-back" data-name="Icon ionic-ios-arrow-back"
-                    d="M13.982,14.116l6-5.992a1.133,1.133,0,1,0-1.6-1.6L11.58,13.314a1.13,1.13,0,0,0-.033,1.562l6.822,6.836a1.133,1.133,0,1,0,1.6-1.6Z"
-                    transform="translate(-11.251 -6.194)" fill="#241010" />
-            </svg>
-        </span>
+        <a href="./home.html">
+            <span class="back-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="9.06" height="15.848" viewBox="0 0 9.06 15.848">
+                    <path id="Icon_ionic-ios-arrow-back" data-name="Icon ionic-ios-arrow-back"
+                        d="M13.982,14.116l6-5.992a1.133,1.133,0,1,0-1.6-1.6L11.58,13.314a1.13,1.13,0,0,0-.033,1.562l6.822,6.836a1.133,1.133,0,1,0,1.6-1.6Z"
+                        transform="translate(-11.251 -6.194)" fill="#241010" />
+                </svg>
+            </span>
+        </a>
         <span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="22.904" height="19.76" viewBox="0 0 22.904 19.76">
-                <g id="Group_4" data-name="Group 4" transform="translate(-329.549 -85.5)">
-                    <line id="Line_1" data-name="Line 1" x2="22.904" transform="translate(329.549 87)" fill="none"
-                        stroke="#ff2424" stroke-width="3" />
-                    <line id="Line_2" data-name="Line 2" x2="22.904" transform="translate(329.549 95.38)"
-                        fill="none" stroke="#ff2424" stroke-width="3" />
-                    <line id="Line_3" data-name="Line 3" x2="11.398" transform="translate(329.549 103.76)"
-                        fill="none" stroke="#ff2424" stroke-width="3" />
-                </g>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14.992" height="9.995" viewBox="0 0 14.992 9.995">
+                <path id="Icon_material-sort" data-name="Icon material-sort"
+                    d="M4.5,18.995h5V17.329h-5ZM4.5,9v1.666H19.492V9Zm0,5.83h9.995V13.164H4.5Z"
+                    transform="translate(-4.5 -9)" />
             </svg>
+
         </span>
     </nav>
-    <header class="search-product-header container"> 
+    <header class="search-product-header container">
         <h1>Search product</h1>
         <form action="">
-            <input type="text" value="">
-            <span>
+            <input type="text" value="" placeholder="Search for a dish or meal">
+            <span class="search-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="23.048" height="23.048" viewBox="0 0 23.048 23.048">
                     <g id="Icon_feather-search" data-name="Icon feather-search" transform="translate(-3 -3)">
                         <path id="Path_93" data-name="Path 93"
@@ -48,6 +48,40 @@
             </span>
         </form>
     </header>
-    <main></main>
+    <main>
+        <div class="categori container">
+            <div class="categori-items">
+                <img class="img-items" src="./images/search product img/italian meals.png" alt="Italian meals">
+                <span class="categori-name">Italian Meals</span>
+                <span class="total-items">Total 27 items</span>
+            </div>
+            <div class="categori-items">
+                <img class="img-items" src="./images/search product img/chinese-meals.png" alt="Chinese meals">
+                <span class="categori-name">Chinese Meals</span>
+                <span class="total-items">Total 45 items</span>
+            </div>
+            <div class="categori-items">
+                <img class="img-items" src="./images/search product img/asian-meals.png" alt="Asian meals">
+                <span class="categori-name">Asian Meals</span>
+                <span class="total-items">Total 12 items</span>
+            </div>
+            <div class="categori-items">
+                <img class="img-items" src="./images/search product img/healthy-meals.png" alt="Healthy Meals">
+                <span class="categori-name">Healthy Meals</span>
+                <span class="total-items">Total 31 items</span>
+            </div>
+            <div class="categori-items">
+                <img class="img-items" src="./images/search product img/fast-food.png" alt="Fast Food">
+                <span class="categori-name">Fast Food</span>
+                <span class="total-items">Total 95 items</span>
+            </div>
+            <div class="categori-items">
+                <img class="img-items" src="./images/search product img/desserts.png" alt="Dessert">
+                <span class="categori-name">Dessert</span>
+                <span class="total-items">Total 113 items</span>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>

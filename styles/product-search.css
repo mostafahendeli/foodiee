@@ -14,7 +14,7 @@ body {
 }
 
 :root {
-    --back-ground: #cccccc;
+    --back-ground: #f7f7f7;
 }
 
 .container {
@@ -25,5 +25,77 @@ body {
 .nav-top {
     display: flex;
     justify-content: space-between;
-    padding-top: 3rem;
+    align-items: center;
+    padding-top: 4.5rem;
+    margin-bottom: 2rem;
+
+}
+
+.back-icon {
+    background-color: #fff;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search-product-header h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.search-product-header form {
+    display: flex;
+    justify-items: center;
+    position: relative;
+}
+
+form input {
+    background-color: var(--back-ground);
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid #efefef;
+    color: #cccccc;
+    font-size: 1.6rem;
+}
+
+.search-icon {
+    position: absolute;
+    right: 0;
+}
+
+main {
+    margin-top: 3.9rem;
+}
+
+.categori {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    row-gap: 2rem;
+
+}
+
+.categori-items {
+    display: grid;
+    justify-items: center;
+}
+
+.img-items {
+    max-width: 12.3rem;
+
+}
+
+.categori-name {
+    font-size: 1.4rem;
+    margin-top: 1.2rem;
+}
+
+.total-items {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
 }
